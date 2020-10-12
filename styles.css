@@ -1,0 +1,41 @@
+.main_title, .audi_website_block, .znaki_website_block, .neon_website_block, .audi_website_block_link, .znaki_website_block_link, .neon_website_block_link {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.main_title {
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.websites_block {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.audi_website_block, .znaki_website_block, .neon_website_block {
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.audi_website_block_title, .znaki_website_block_title, .neon_website_block_title {
+    padding-bottom: 10px;
+}
+
+.audi_website_block_link, .znaki_website_block_link, .neon_website_block_link {
+    color: rgba(251, 81, 81, 1)
+}
+
